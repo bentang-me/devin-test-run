@@ -25,6 +25,10 @@ This project is a web-based weather application that provides real-time weather 
 - Add a forecast feature to the application, including displaying forecast data on the frontend.
 - Enhance the user interface with 8-bit graphics and animations for a cohesive and visually appealing aesthetic.
 
+## Project Structure
+- **weather-app**: Frontend React application using Chakra UI.
+- **weather_backend**: Backend FastAPI application handling weather data requests.
+
 ## How to Run
 1. Start the backend server:
    ```bash
