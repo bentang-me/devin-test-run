@@ -1,10 +1,16 @@
 [build-system]
-requires = ["setuptools", "wheel"]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
 
-[project]
+[tool.poetry]
 name = "devin-test-run"
 version = "0.1.0"
-dependencies = [
-    "fastapi",
-    "uvicorn",
-]
+description = ""
+authors = ["John Doe <john.doe@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.104.0"
+uvicorn = "^0.23.0"
+
+[tool.poetry.dev-dependencies]
